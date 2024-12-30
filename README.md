@@ -1,6 +1,8 @@
 ## GUI installation:
 
 ```
+wsl --status
+wsl --set-default-version 2
 wsl --install
 wsl --list --online
 wsl --install -d kali-linux
